@@ -1,0 +1,22 @@
+.lightTheme {
+    background: #ffffff;
+    height: 100vh;
+    color: #333;
+}
+.lightTheme a {
+      color: #333;
+  }
+.darkTheme {
+    background: #171d3b;
+    height: 100vh;
+    color: #ffffff;
+}
+.darkTheme a {
+      color: #ffffff;
+  }
+.darkTheme .activeLink {
+    border-bottom: 1px solid #ffffff;
+}
+.lightTheme .activeLink {
+    border-bottom: 1px solid #333;
+}
