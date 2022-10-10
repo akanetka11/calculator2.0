@@ -10,6 +10,7 @@ font-size: 26px;
 cursor: pointer;
 }
 `
+
 const Settings = () => {
     const theme = useSelector<any>(state => state.theme)
     const dispatch = useDispatch()

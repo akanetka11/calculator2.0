@@ -22,6 +22,9 @@ justify-content: space-between;
   }
 `
 const Title = styled.h1`
+& a {
+text-decoration: none;
+}
  @media (max-width: 768px) {
     font-size: 24px;
   }
@@ -49,7 +52,8 @@ const [currentPage, setCurrentPage] = useState('Home')
     return (
         <HeaderContainer>
             <AppContainer>
-                <Title>Calculator App</Title>
+                <Title>
+                  <Link to={"/"} onClick={() => setCurrentPage('Home')}>Calculator App</Link></Title>
                 <Navigation>
                     <ul>
                         <li>
